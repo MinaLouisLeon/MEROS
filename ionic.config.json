@@ -1,0 +1,7 @@
+{
+  "name": "MEROS",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
