@@ -19,8 +19,13 @@ import '@ionic/react/css/display.css';
 /* Theme variables */
 import './theme/variables.css';
 
+import Layout from './components/Layout/Layout.jsx'
+import ResponsiveGrid from './components/ResponsiveGrid/ResponsiveGrid';
 const App = () => (
   <IonApp>
+    <Layout>
+      <ResponsiveGrid/>
+    </Layout>
   </IonApp>
 );
 
